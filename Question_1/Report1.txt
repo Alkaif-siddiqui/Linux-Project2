@@ -1,0 +1,2 @@
+1. command : nano submsission_backup.sh
+   observation: it open nano text editor, it is used to write shell script and modify the script.
