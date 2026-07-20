@@ -2,7 +2,7 @@
 
 # Directories
 Source_Dir="submissions"
-Backu_Dir="backup"
+Backup_Dir="backup"
 
 # Files
 Report_File="script_report.txt"
