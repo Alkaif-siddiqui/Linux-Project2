@@ -36,6 +36,6 @@ done
 echo "===== Report =====" > "$Report_File"
 echo "Files Processed : $processed" >> "$Report_File"
 echo "Duplicate Files : $duplicates" >> "$Report_File"
-echo "Files Backed Up : $backedup" >> "$REPORT_FILE"
-
+echo "Files Backed Up : $backedup" >> "$Report_File"
 echo "Task Completed."
+
