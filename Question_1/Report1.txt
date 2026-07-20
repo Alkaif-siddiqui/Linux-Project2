@@ -1,2 +1,7 @@
 1. command : nano submsission_backup.sh
-   observation: it open nano text editor, it is used to write shell script and modify the script.
+   observation: it open nano text editor, it is used to write shell script and modify the 
+   script.
+2. command: chmod +x submsission_backup.sh
+   observtaion: Normally file have only read and write permission but after this command file
+   have execute permission so, that i run the script file submsission_backup.sh 
+   
