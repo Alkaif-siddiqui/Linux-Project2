@@ -15,3 +15,10 @@
    the ouput of script code output and second one is errors.log where redirects error of that
    script code.
 
+5. command: ./submission_backup.sh
+   output : Task Completed
+   observation: its run the shell script code which is written in that shell script file.
+   its redirects error on errors.log file and outut of this shell script redirects on 
+   script_report.txt file.
+   
+
