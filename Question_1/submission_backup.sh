@@ -5,7 +5,7 @@ Source_Dir="submissions"
 Backu_Dir="backup"
 
 # Files
-Report_File="report.txt"
+Report_File="script_report.txt"
 Error_Log="errors.log"
 
 # Count
