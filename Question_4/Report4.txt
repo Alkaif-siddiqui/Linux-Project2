@@ -1,0 +1,7 @@
+1. command: touch system.log 
+   observation: It creates a log file where i add entries using echo command and the perform operation.
+
+2. command: touch Report4.txt
+   observation: It creates a text file. where we Explain the every command output, we write here what I observed after 
+   executing every command.
+   
