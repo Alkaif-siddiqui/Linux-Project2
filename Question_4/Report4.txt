@@ -5,3 +5,8 @@
    observation: It creates a text file. where we Explain the every command output, we write here what I observed after 
    executing every command.
 
+3. command : echo "message">>system.log
+   observation: The echo command prints the messgae which is written between double qoute (""). The >> redirects 
+   input or add entries  in the file which u gave after this operator >>
+   
+  
