@@ -61,3 +61,5 @@
      i)If a child process stops responding, the parent process send SIGTERM to request termination.
      ii)If child process ignores this SIGTERM request of terminated then, parents process use 
        forcefull termination and sends SIGKILL request to terminate the child process.
+
+       
