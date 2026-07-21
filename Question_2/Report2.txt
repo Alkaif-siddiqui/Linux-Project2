@@ -30,5 +30,12 @@
    observation: PID 25181 is the parent process and 25183 is the child process, 25182 and 
    25184 i s the zombie process.[program] <defunct> means child process has already finished 
    execution, now that is zombie because parents has not called yet.
-   
 
+5. command: ps -el | grep z
+   output: F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+           1 Z  1000   57076   57075  0  80   0 -     0 -      pts/0    00:00:00 program
+           1 Z  1000   57078   57075  0  80   0 -     0 -      pts/0    00:00:00 program
+   observation: This command execute during the running of program.Pid 57076 and 570768 
+   are two zombie processes are present. Both zombie have same parent process which pid is 
+   57075.This shows that child processes has terminated.but, parent process has not called 
+   till at this time.The wait()/waitpid() collect their exit status.
