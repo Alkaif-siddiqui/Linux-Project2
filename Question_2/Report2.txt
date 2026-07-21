@@ -1,0 +1,4 @@
+1. command: nano main.c
+   observation: it creates a c file where i written c program.Usually this command is used fo
+   create the text file and modify or edit the file.
+2. 
