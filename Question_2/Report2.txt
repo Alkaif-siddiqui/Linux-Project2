@@ -4,7 +4,7 @@
 
 2. command: touch Report2.txt
    observation: it creates text file named as Report2.txt,I write the observation of each and 
-   every command in this text file. and also I explain the process , termination of the c 
+   every command in this text file. and also I explain the code of the c 
    program which written in main.c file.
 
 3. command: a) gcc main.c -o program  b) ./program
@@ -20,3 +20,4 @@
                  Child PID 17714 is unresponsive. Terminating...
                  Child PID 17715 completed normally.
                  All child processes handled successfully.
+
