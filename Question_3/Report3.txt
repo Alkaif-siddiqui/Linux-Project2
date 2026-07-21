@@ -12,3 +12,16 @@
      ID = 102
      Name = Bob
      Salary = 65000.00
+
+4.Explaination:
+  a)open(): creates or open the employee file name is employee.dat, retruns the file descriptor.
+  b)write(): Write the employee records. Here we writes only 3 emloyee records only. and also update second emloyee 
+    record without rewriting whole file.
+  c)lseek(): Locates the second record by moving the file pointer, enabling direct access.
+  d)write(): Retrieve the modified second employee entry from the designated file.
+  e)close(): This closes the file and frees the file descriptor for future allocation.
+  
+
+  
+
+
