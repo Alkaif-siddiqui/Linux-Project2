@@ -21,3 +21,14 @@
                  Child PID 17715 completed normally.
                  All child processes handled successfully.
 
+4. command: ps -ef | grep program
+   output: codespa+   25181   22840  0 05:51 pts/0    00:00:00 ./program
+           codespa+   25182   25181  0 05:51 pts/0    00:00:00 [program] <defunct>
+           codespa+   25183   25181  0 05:51 pts/0    00:00:00 ./program
+           codespa+   25184   25181  0 05:51 pts/0    00:00:00 [program] <defunct>
+           codespa+   25245   24291  0 05:51 pts/1    00:00:00 grep --color=auto program
+   observation: PID 25181 is the parent process and 25183 is the child process, 25182 and 
+   25184 i s the zombie process.[program] <defunct> means child process has already finished 
+   execution, now that is zombie because parents has not called yet.
+   
+
