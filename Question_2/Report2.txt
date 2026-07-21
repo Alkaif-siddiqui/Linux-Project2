@@ -1,8 +1,22 @@
 1. command: nano main.c
    observation: it creates a c file where i written c program.Usually this command is used fo
    create the text file and modify or edit the file.
-2. command: touch Report2.txt
 
+2. command: touch Report2.txt
    observation: it creates text file named as Report2.txt,I write the observation of each and 
    every command in this text file. and also I explain the process , termination of the c 
    program which written in main.c file.
+
+3. command: a) gcc main.c -o program  b) ./program
+  observation: a) This command compile the code in the file named as program.
+               b) This command run the program in Bash terminal and
+                 output is: 
+                 Child 2 started (PID = 17714)
+                 Child 3 started (PID = 17715)
+                 Child 1 started (PID = 17713)
+                 Child 3 finished
+                 Child 1 finished
+                 Child PID 17713 completed normally.
+                 Child PID 17714 is unresponsive. Terminating...
+                 Child PID 17715 completed normally.
+                 All child processes handled successfully.
