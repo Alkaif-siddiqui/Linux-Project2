@@ -8,5 +8,11 @@
 3. command : echo "message">>system.log
    observation: The echo command prints the messgae which is written between double qoute (""). The >> redirects 
    input or add entries  in the file which u gave after this operator >>
+
+4. command: a)ls -l error_report.txt b)chmod +x error_report.txt
+   output: a)-rw-rw-rw- 1 codespace codespace 0 Jul 21 10:02 error_report.txt
+   observation: a)This command uses to check wherther file have only read, write, execute and all permitted or not.
+                b) This command is use tp change the file permission to execute.
+
+
    
-  
