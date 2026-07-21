@@ -4,3 +4,4 @@ WARNING: Low memory
 ERROR: Disk full
 INFO: User logged In
 ERROR: Test message
+ERROR: Network timeout
