@@ -2,4 +2,6 @@
    observtaion: It creates C file using nano editor and where i write progaram of creates file , open() , update, 
    read(), Write() and close ().
 
-
+2. command:touch Report3.txt
+   observtaion: It creates a text file named a  Report3.txt Where i  Write the observtaion of command and 
+   explainations of Q3.
