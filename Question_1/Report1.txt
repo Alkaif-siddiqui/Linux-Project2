@@ -21,6 +21,13 @@
    observation: its run the shell script code which is written in that shell script file.
    its redirects error on errors.log file and outut of this shell script redirects on 
    script_report.txt file.
+
+Justification: The command cmp -s compares the file contents byte by byte to identify the 
+duplicates and the cp command only copies the unique file, verified files into the target
+folder name $Backup_Dir. The operator > redirects output of processed , duplicates, backedup 
+counts in the file $Report_File. The operators 2>> redirect error in "$Error_Log" and all 
+failures separately without interrupting standard output. The variable "$File" and option -f 
+checks and prevent crashesh from file spaces and empty directories.
    
    
 
