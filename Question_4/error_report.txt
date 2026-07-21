@@ -1,0 +1,5 @@
+
+ERROR: Database connection failed
+ERROR: Disk full
+ERROR: Test message
+ERROR: Network timeout

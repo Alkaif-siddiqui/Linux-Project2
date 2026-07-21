@@ -21,4 +21,4 @@
 6. command: tail -f system.log
    observation: It displays newly added log entries in realtime and monitors the log file continuously.
 
-7. 
+7. command: 
