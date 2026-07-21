@@ -5,3 +5,10 @@
 2. command:touch Report3.txt
    observtaion: It creates a text file named a  Report3.txt Where i  Write the observtaion of command and 
    explainations of Q3.
+
+3.command: a)gcc main.c -o file b)./file
+  a)This command compile the code which written in file name main.C
+  b) This command run the program and output is:
+     ID = 102
+     Name = Bob
+     Salary = 65000.00
