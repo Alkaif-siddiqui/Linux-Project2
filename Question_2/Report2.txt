@@ -39,3 +39,25 @@
    are two zombie processes are present. Both zombie have same parent process which pid is 
    57075.This shows that child processes has terminated.but, parent process has not called 
    till at this time.The wait()/waitpid() collect their exit status.
+
+6. Explantion of the program
+   a) Process creation Using fork()
+      parents process creates multiple child process using fork() and they handle tasks.
+      each child process executes its assigned task independently. In this code, one 
+      child process is intentionally stuck in an infinite loop.
+   b) Monitoring the execution
+      The parents process wiats for a fixed time which decided by TIME_LIMIT. 
+      here we use : waitpid(pid,&status, WNOHANG); //The WNOHANG option keeps the parent 
+      process running while verifying if the child process is done.
+   c)Zombie Process prevention Technique
+     When a child process terminated , Zombie process occurs but parent process does not
+     collect its  exit status.Then we use the parent call: waitpid(pid, &started, 0)
+     To properly manage the child's termination, the parent process must retrieve the exit 
+     status and clear the process table entry, thereby avoiding zombie processes.
+   d)Terminating unresponsive child Process
+     if the waitpid() returns 0 means child process is still running, Now i have two steps
+     to terminate the child process. i)kill(pid, SIGTERM) ii)kill(ppid, SIGKILL)
+     Here, I discuss both in below:
+     i)If a child process stops responding, the parent process send SIGTERM to request termination.
+     ii)If child process ignores this SIGTERM request of terminated then, parents process use 
+       forcefull termination and sends SIGKILL request to terminate the child process.
