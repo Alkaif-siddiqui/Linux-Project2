@@ -20,7 +20,9 @@
   c)lseek(): Locates the second record by moving the file pointer, enabling direct access.
   d)write(): Retrieve the modified second employee entry from the designated file.
   e)close(): This closes the file and frees the file descriptor for future allocation.
+
   
+
 
   
 
