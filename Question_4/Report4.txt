@@ -14,5 +14,8 @@
    observation: a)This command uses to check wherther file have only read, write, execute and all permitted or not.
                 b) This command is use tp change the file permission to execute.
 
-
+5. command: a)ls -l system.log b)chmod +x system.log
+   output:  a)-rw-rw-rw- 1 codespace codespace 133 Jul 21 10:10 system.log
+   observation: a)This command uses to check wherther file have only read, write, execute and all permitted or not.
+                b) This command is use tp change the file permission to execute.
    
