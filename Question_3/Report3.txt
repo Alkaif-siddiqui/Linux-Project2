@@ -1,0 +1,5 @@
+1. command: nano main.c
+   observtaion: It creates C file using nano editor and where i write progaram of creates file , open() , update, 
+   read(), Write() and close ().
+
+
