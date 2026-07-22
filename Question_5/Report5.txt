@@ -3,3 +3,7 @@
 
 Justification: 
 if the system crashes while using vi editor , we have several recovery mechanism to restore the work;
+1.Swap file: In vi editor, it automatically creates a swap while  editing.Because it continuously saves your latest progress.it best way to recover 
+  your work after the system crash.
+
+
