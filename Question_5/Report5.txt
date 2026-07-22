@@ -1,0 +1,4 @@
+1.  command : touch Report5.txt
+    observtaion : It creates a text file where i writes the observation and explantion of every command.
+
+  
