@@ -15,4 +15,7 @@ system crash.
 4.Automatic Recovery: Vi automatically recognizes the existing swap file when the file is opened again after a crash.This makes recovery of changes
  easy and hassle-free for the user.
 
+conclusion:
+
+
 
