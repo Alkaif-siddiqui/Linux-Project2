@@ -16,6 +16,8 @@ system crash.
  easy and hassle-free for the user.
 
 conclusion:
-
+The auto-recovery feature that makes use of the swap file is the best recovery process since it saves the latest unsaved changes made by the user, 
+thus making it possible for the user to recover it using vi -r filename command or automatic recovery prompt of vi. The other methods like backup 
+files do not save the latest changes.
 
 
