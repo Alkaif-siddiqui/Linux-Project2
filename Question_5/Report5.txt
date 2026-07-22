@@ -1,4 +1,5 @@
 1.  command : touch Report5.txt
     observtaion : It creates a text file where i writes the observation and explantion of every command.
 
-  
+Justification: 
+if the system crashes while using vi editor , we have several recovery mechanism to restore the work;
