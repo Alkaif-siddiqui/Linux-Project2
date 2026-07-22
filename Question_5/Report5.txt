@@ -9,5 +9,7 @@ if the system crashes while using vi editor , we have several recovery mechanism
 2.undo the history: Undo Only the most recent changes can be undone during an active editing session. In case of a system crash and closure of the 
 editor, the undo history is lost.
 
+3.Registers: A register stores a copy, delete, or yank of text.It is useful while you are editing but cannot save your work in case there is a 
+system crash. 
 
 
