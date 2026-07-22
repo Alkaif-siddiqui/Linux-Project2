@@ -12,4 +12,7 @@ editor, the undo history is lost.
 3.Registers: A register stores a copy, delete, or yank of text.It is useful while you are editing but cannot save your work in case there is a 
 system crash. 
 
+4.Automatic Recovery: Vi automatically recognizes the existing swap file when the file is opened again after a crash.This makes recovery of changes
+ easy and hassle-free for the user.
+
 
